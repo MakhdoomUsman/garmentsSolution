@@ -18,6 +18,8 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         mainBackground: "url('/image/mainPage/hero-image.jpg')",
         acheiveBackground: "url('/image/acheivements/1.jpg')",
+        getInTouch: "url('/image/getintouch/getintoch.jpg')",
+        serviceBreadCrum: "url('/image/breadCrums/serviepage.jpg')",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HeaderTop = () => {
   return (
-    <div className="bg-bgDarkGray">
+    <div className="md:block hidden bg-bgDarkGray">
       <Container>
         <div className="flex items-center justify-between gap-5">
           <div className="  text-white flex gap-10 items-center py-2.5 font-normal">

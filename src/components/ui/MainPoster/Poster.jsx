@@ -8,7 +8,7 @@ const Poster = () => {
         <div className="h-full w-full py-32 bg-black/50">
           <Container>
             <div className=" max-w-2xl ml-auto    ">
-              <h1 className="text-[65px] font-bold text-bgLightGray font-playFair">
+              <h1 className="xl:text-[65px] lg:text-[55px] text-[45px] font-bold text-bgLightGray font-playFair">
                 The Best Solution For Your Textile And Garment Needs
               </h1>
               <p className="text-white">

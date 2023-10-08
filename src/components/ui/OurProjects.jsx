@@ -1,8 +1,10 @@
 import React from "react";
 import Container from "../container/Container";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const OurProjects = () => {
+  const route = useRouter();
   return (
     <div className="my-20">
       <Container>
@@ -19,7 +21,10 @@ const OurProjects = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <button className="rounded-lg w-max font-playFair hover:-translate-y-2.5 transition-all ease-in-out duration-300 hover:bg-bgDarkGray mt-5 bg-bgLightGray px-7 py-3.5 text-xl font-bold text-white">
+          <button
+            onClick={() => route.push("/projects")}
+            className="rounded-lg w-max font-playFair hover:-translate-y-2.5 transition-all ease-in-out duration-300 hover:bg-bgDarkGray mt-5 bg-bgLightGray px-7 py-3.5 text-xl font-bold text-white"
+          >
             View All Projects
           </button>
         </div>
@@ -41,7 +46,10 @@ const OurProjects = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
-          <button className="rounded-lg font-playFair hover:-translate-y-2.5 transition-all ease-linear hover:text-bgGray duration-500 mt-5 px-7 py-3.5 text-xl font-bold text-white">
+          <button
+            onClick={() => route.push("/projects/cotton-fabric")}
+            className="rounded-lg font-playFair hover:-translate-y-2.5 transition-all ease-linear hover:text-bgGray duration-500 mt-5 px-7 py-3.5 text-xl font-bold text-white"
+          >
             View Detail
           </button>
         </div>
@@ -61,7 +69,10 @@ const OurProjects = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
-          <button className="rounded-lg font-playFair hover:-translate-y-2.5 transition-all ease-linear hover:text-bgGray duration-500 mt-5 px-7 py-3.5 text-xl font-bold text-white">
+          <button
+            onClick={() => route.push("/projects/fashion-project")}
+            className="rounded-lg font-playFair hover:-translate-y-2.5 transition-all ease-linear hover:text-bgGray duration-500 mt-5 px-7 py-3.5 text-xl font-bold text-white"
+          >
             View Detail
           </button>
         </div>
@@ -81,7 +92,10 @@ const OurProjects = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
-          <button className="rounded-lg font-playFair hover:-translate-y-2.5 transition-all ease-linear hover:text-bgGray duration-500 mt-5 px-7 py-3.5 text-xl font-bold text-white">
+          <button
+            onClick={() => route.push("/projects/leather-textile")}
+            className="rounded-lg font-playFair hover:-translate-y-2.5 transition-all ease-linear hover:text-bgGray duration-500 mt-5 px-7 py-3.5 text-xl font-bold text-white"
+          >
             View Detail
           </button>
         </div>
