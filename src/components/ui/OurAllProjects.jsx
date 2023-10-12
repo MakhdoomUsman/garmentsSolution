@@ -94,7 +94,7 @@ const OurAllProjects = () => {
           </div>
           <div className=" text-center justify-center flex flex-col space-y-2.5 bg-bgDarkGray p-10 border-2 border-bgDarkGray">
             <p className="font-bold  text-[30px] text-bgGray font-playFair">
-            Satin Fabric
+              Satin Fabric
             </p>
             <p className="text-white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
@@ -125,7 +125,7 @@ const OurAllProjects = () => {
           </div>
           <div className=" text-center justify-center flex flex-col space-y-2.5 bg-bgDarkGray p-10 border-2 border-bgDarkGray">
             <p className="font-bold  text-[30px] text-bgGray font-playFair">
-            Colorful Fabric
+              Colorful Fabric
             </p>
             <p className="text-white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit

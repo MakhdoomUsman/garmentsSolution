@@ -12,7 +12,7 @@ const Testimonial = () => {
         <p className="font-bold text-center  xl:text-[45px] text-[35px] text-bgGray font-playFair">
           What They Said about Us
         </p>
-        <div className="grid lg:grid-cols-2 2xl:mx-20 my-10">
+        <div className="grid lg:grid-cols-2 2xl:mx-20 my-10 rounded-xl overflow-hidden">
           <div className="">
             <div className="relative flex h-full">
               <Image
