@@ -50,18 +50,18 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="space-y-5 lg:justify-self-center">
+          <div className=" lg:justify-self-center">
             <p className="font-bold text-[25px] text-bgLightGray font-playFair">
-              Our Services
+              Services Details
             </p>
             <Link href={"/services"}>
-              <p className=" text-white">Services</p>
+              <p className=" text-white pt-4">Services</p>
             </Link>
             <Link href={"/projects"}>
-              <p className=" text-white">Projects</p>
+              <p className=" text-white pt-2">Projects</p>
             </Link>
             <Link href={"/pricing"}>
-              <p className=" text-white">Pricing</p>
+              <p className=" text-white pt-2">Pricing</p>
             </Link>
           </div>
           <div className="space-y-5 lg:justify-self-center">
@@ -69,14 +69,14 @@ const Footer = () => {
               Reached Out
             </p>
             <Link href={"/about-us"}>
-              <p className=" text-white">About Us</p>
+              <p className=" text-white pt-4">About Us</p>
             </Link>
             <Link href={"/contact-us"}>
-              <p className=" text-white">Contact Us</p>
+              <p className=" text-white pt-2">Contact Us</p>
             </Link>
 
             <Link href={"/our-team"}>
-              <p className=" text-white">Our Team</p>
+              <p className=" text-white pt-2">Our Team</p>
             </Link>
           </div>
           <div className="space-y-5">

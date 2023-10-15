@@ -72,19 +72,19 @@ const Header = () => {
           />
         </div>
         <div className="flex lg:hidden mt-32 flex-col gap-10 xl:gap-10 text-lg font-medium  ">
-          <Link href={"/"}>
+          <Link onClick={() => setShowMenu(false)} href={"/"}>
             <p>Homepage</p>
           </Link>
-          <Link href={"/services"}>
+          <Link onClick={() => setShowMenu(false)} href={"/services"}>
             <p>Services</p>
           </Link>
-          <Link href={"/projects"}>
+          <Link onClick={() => setShowMenu(false)} href={"/projects"}>
             <p>Projects</p>
           </Link>
-          <Link href={"/pricing"}>
+          <Link onClick={() => setShowMenu(false)} href={"/pricing"}>
             <p>Pricing </p>
           </Link>
-          <Link href={"/contact-us"}>
+          <Link onClick={() => setShowMenu(false)} href={"/contact-us"}>
             <p>Contact</p>
           </Link>
         </div>

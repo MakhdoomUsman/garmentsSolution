@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../container/Container";
 import Image from "next/image";
+import Link from "next/link";
 
 const OurProcess = () => {
   return (
@@ -22,8 +23,8 @@ const OurProcess = () => {
                   Choose The Best Material
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit at
-                  faucibus est
+                  We prioritize durability, comfort, and aesthetics to lay the
+                  foundation for outstanding end products
                 </p>
               </div>
             </div>
@@ -42,8 +43,9 @@ const OurProcess = () => {
                   Start Production
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit at
-                  faucibus est
+                  Our skilled artisans take the reins, utilizing cutting-edge
+                  techniques to bring your vision to life. Precision and
+                  craftsmanship define this phase, ensuring remarkable results.
                 </p>
               </div>
             </div>
@@ -62,8 +64,8 @@ const OurProcess = () => {
                   Ready To Export
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit at
-                  faucibus est
+                  Once passed, your items are carefully packed, ready for timely
+                  and efficient export, no matter where you are.
                 </p>
               </div>
             </div>
@@ -77,22 +79,24 @@ const OurProcess = () => {
                 How We Works
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                et fringilla diam, et aliquet libero. Cras pulvinar elementum
-                enim, at faucibus est.
+                Discover the essence of our work process. From selecting the
+                finest materials to expert production and seamless export, our
+                meticulous approach ensures the excellence that sets us apart.
               </p>
             </div>
             <div className=" flex md:flex-row flex-col xl:gap-10 gap-5 md:justify-start justify-center items-center">
               <span className=" text-[70px] font-bold text-bgGray shrink-0">
-                300+
+                50+
               </span>{" "}
               <span className="font-bold font-playFair lg:text-lg text-bgLightGray">
-                We Have More Than 300+ Clients Around The World
+                We Have More Than 50+ Clients Around The World
               </span>
             </div>
-            <button className="rounded-lg font-playFair hover:-translate-y-2.5 transition-all ease-in-out duration-300 hover:bg-bgDarkGray mt-5 bg-bgLightGray px-7 py-3.5 text-xl font-bold text-white">
-              Learn More
-            </button>
+            <Link href={"/contact-us"}>
+              <button className="rounded-lg font-playFair hover:-translate-y-2.5 transition-all ease-in-out duration-300 hover:bg-bgDarkGray mt-5 bg-bgLightGray px-7 py-3.5 text-xl font-bold text-white">
+                Reach out
+              </button>
+            </Link>
           </div>
         </div>
       </Container>

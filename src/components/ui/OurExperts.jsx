@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../container/Container";
 import Image from "next/image";
+import Link from "next/link";
 
 const OurExperts = () => {
   return (
@@ -71,9 +72,11 @@ const OurExperts = () => {
               <p className=" text-center">Owner & CEO</p>
             </div>
           </div>
-          <button className="rounded-lg font-playFair hover:-translate-y-2.5 transition-all ease-in-out duration-300 hover:bg-bgDarkGray mt-5 bg-bgLightGray px-7 py-3.5 text-xl font-bold text-white">
-            Learn More
-          </button>
+          <Link href={"our-team"}>
+            <button className="rounded-lg font-playFair hover:-translate-y-2.5 transition-all ease-in-out duration-300 hover:bg-bgDarkGray mt-5 bg-bgLightGray px-7 py-3.5 text-xl font-bold text-white">
+              Learn More
+            </button>
+          </Link>
         </div>
       </Container>
     </div>
