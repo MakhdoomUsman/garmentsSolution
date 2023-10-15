@@ -11,14 +11,16 @@ const Header = () => {
       <HeaderTop />
       <Container>
         <div className="flex py-5  justify-between items-center ">
-          <div className=" w-52 ">
-            <Image
-              src={"/image/Logos/Logo-Cottone.png"}
-              alt="logo"
-              className=" custom-img "
-              fill
-            />
-          </div>
+          <Link href={"/"}>
+            <div className=" w-52 ">
+              <Image
+                src={"/image/Logos/Logo-Cottone.png"}
+                alt="logo"
+                className=" custom-img "
+                fill
+              />
+            </div>
+          </Link>
           <div className="lg:flex hidden xl:gap-10 gap-5 text-lg font-medium  ">
             <Link href={"/"}>
               <p>Homepage</p>
@@ -29,12 +31,18 @@ const Header = () => {
             <Link href={"/projects"}>
               <p>Projects</p>
             </Link>
-            <p>Pages</p>
-            <p>Contact</p>
+            <Link href={"/pricing"}>
+              <p>Pricing </p>
+            </Link>
+            <Link href={"/contact-us"}>
+              <p>Contact</p>
+            </Link>
           </div>
-          <button className="rounded-lg lg:block hidden bg-bgLightGray px-7 py-2.5 text-xl font-bold text-white">
-            Appointment
-          </button>
+          <Link href={"/contact-us"}>
+            <button className="rounded-lg lg:block hidden bg-bgLightGray px-7 py-2.5 text-xl font-bold text-white">
+              Appointment
+            </button>
+          </Link>
           {!showMenu && (
             <div className="lg:hidden w-8 " onClick={() => setShowMenu(true)}>
               <Image
@@ -64,11 +72,21 @@ const Header = () => {
           />
         </div>
         <div className="flex lg:hidden mt-32 flex-col gap-10 xl:gap-10 text-lg font-medium  ">
-          <p>Homepage</p>
-          <p>Services</p>
-          <p>Projects</p>
-          <p>Pages</p>
-          <p>Contact</p>
+          <Link href={"/"}>
+            <p>Homepage</p>
+          </Link>
+          <Link href={"/services"}>
+            <p>Services</p>
+          </Link>
+          <Link href={"/projects"}>
+            <p>Projects</p>
+          </Link>
+          <Link href={"/pricing"}>
+            <p>Pricing </p>
+          </Link>
+          <Link href={"/contact-us"}>
+            <p>Contact</p>
+          </Link>
         </div>
       </div>
     </div>

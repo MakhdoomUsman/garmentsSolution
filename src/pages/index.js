@@ -12,20 +12,20 @@ export default function Home() {
   const allServices = [
     {
       name: "Fabric Dyeing",
-      disc: "Lorem ipsum dolor sit amet, co adipiscing elit, sed do eiusmod tempor incididunt.",
-      slug: "fabric",
+      disc: "Explore the art of fabric dyeing on our website. From vibrant fashion pieces to custom industrial uniforms, our fabric dyeing services offer endless possibilities in color and design. Discover how we transform plain textiles into eye-catching, quality creations.",
+      slug: "fabric-dyeing",
       img: "1.png",
     },
     {
       name: "Satin Weaving",
-      disc: "Lorem ipsum dolor sit amet, co adipiscing elit, sed do eiusmod tempor incididunt.",
-      slug: "fabric",
+      disc: "Dive into the world of satin weaving on our website. Satin weaving is an art that brings forth luxurious, smooth, and elegant fabrics known for their softness and sheen. Explore how this technique elevates fashion and decor, crafting items that radiate timeless beauty.",
+      slug: "satin-weaving",
       img: "2.png",
     },
     {
       name: "Fabric Printing",
-      disc: "Lorem ipsum dolor sit amet, co adipiscing elit, sed do eiusmod tempor incididunt.",
-      slug: "fabric",
+      disc: "Discover the magic of fabric printing on our website. Our fabric printing services bring your designs to life on a variety of textiles, offering limitless creative possibilities for fashion, home decor, and more. Explore how we turn your visions into vivid, custom-printed fabric realities.",
+      slug: "fabric-printing",
       img: "3.png",
     },
   ];

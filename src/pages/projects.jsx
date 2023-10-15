@@ -20,7 +20,7 @@ const Projects = () => {
           <div className="absolute top-0 left-0 h-full w-full bg-bgDarkGray/80"></div>
 
           <Container>
-            <div className=" relative z-20 text-center mx-auto max-w-xl">
+            <div className=" relative z-20 text-center mx-auto max-w-4xl">
               <h1 className="font-bold   text-white font-playFair">
                 Specialist
               </h1>
@@ -28,11 +28,15 @@ const Projects = () => {
                 What’s Our Features
               </p>
               <p className=" text-white">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                At Garments Solutions, our features set us apart. We pride
+                ourselves on delivering excellence through a blend of precision,
+                innovation, and commitment. From top-tier materials to advanced
+                production techniques, and a relentless focus on quality, our
+                features reflect our dedication to providing you with customized
+                solutions that shine in every aspect.
               </p>
             </div>
-            <div className="relative mx-auto max-w-5xl z-20 py-10 flex md:flex-row flex-col justify-evenly xl:gap-20 gap-10 text-center ">
+            <div className=" relative z-20 mt-10 flex md:flex-row flex-col justify-evenly xl:gap-20 gap-10 text-center ">
               <div className=" flex flex-col gap-5 justify-center items-center">
                 <div className=" w-16 bg-bgGray p-4 rounded-lg">
                   <Image
@@ -46,7 +50,8 @@ const Projects = () => {
                   Quality Product
                 </h1>
                 <p className="text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Our quality products are designed for durability, safety, and
+                  style.
                 </p>
               </div>
               <div className=" flex flex-col gap-5 justify-center items-center">
@@ -62,7 +67,8 @@ const Projects = () => {
                   Competitive Price
                 </h1>
                 <p className="text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Enjoy our competitive prices that offer affordability without
+                  compromising quality.
                 </p>
               </div>
               <div className=" flex flex-col gap-5 justify-center items-center">
@@ -78,7 +84,8 @@ const Projects = () => {
                   24/7 Support
                 </h1>
                 <p className="text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Count on our 24/7 support for dedicated assistance whenever
+                  you need it.
                 </p>
               </div>
             </div>

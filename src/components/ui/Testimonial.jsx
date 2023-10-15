@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Testimonial = () => {
   return (
-    <div >
+    <div>
       <Container>
         <h1 className="font-bold text-center text-bgLightGray font-playFair">
           Testimonial
@@ -24,15 +24,17 @@ const Testimonial = () => {
             </div>
           </div>
           <div className=" bg-bgDarkGray xl:px-20 px-10 xl:py-20 py-10">
-            <div className="xl:text-[150px] md:text-[140px] text-[100px] text-white  leading-[50px]">{'"'}</div>
-            <h1 className="font-bold  xl:text-[35px] lg:text-[30px] md:text-[25px] text-xl  text-bgLightGray font-playFair">
+            <div className="xl:text-[150px] md:text-[140px] text-[100px] text-white  leading-[50px]">
+              {'"'}
+            </div>
+            <h1 className="font-bold lg:leading-[40px]  xl:text-[35px] lg:text-[30px] md:text-[25px] text-xl  text-bgLightGray font-playFair">
               This Company Very Favorably Impressed With The Quality Of The Work
               Performed By Your Employees
             </h1>
             <p className=" text-white md:text-base text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
-              fringilla diam, et aliquet libero. Cras pulvinar elementum enim,
-              at faucibus est accumsan et.
+              Outstanding service and quality products! Garments Solutions
+              transformed our workwear, providing stylish uniforms that our
+              employees love. Their expertise and support are unmatched.
             </p>
             <p className="font-bold text-center text-[25px] text-bgLightGray font-playFair">
               Rose Mery

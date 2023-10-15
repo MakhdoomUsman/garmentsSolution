@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const GetInTouch = () => {
@@ -11,9 +12,11 @@ const GetInTouch = () => {
         <p className="font-bold text-center  xl:text-[35px] lg:text-[30px] text-[25px] text-bgLightGray font-playFair">
           Do You Want Custom Project <br /> With Textilery? Contact Us Now
         </p>
-        <button className="rounded-lg font-playFair hover:-translate-y-2.5 transition-all ease-in-out duration-300 hover:bg-bgDarkGray mt-5 bg-bgLightGray px-7 py-3.5 text-xl font-bold text-white">
-          Contact Us
-        </button>
+        <Link href={"/contact-us"}>
+          <button className="rounded-lg font-playFair hover:-translate-y-2.5 transition-all ease-in-out duration-300 hover:bg-bgDarkGray mt-5 bg-bgLightGray px-7 py-3.5 text-xl font-bold text-white">
+            Contact Us
+          </button>
+        </Link>
       </div>
     </div>
   );

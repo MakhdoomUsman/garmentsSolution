@@ -16,10 +16,11 @@ const ContactUsFrom = () => {
                 Your Satisfaction Is Our Priority
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                At Garments Solutions, your feedback and inquiries are important
+                to us. Our Contact Us section is your direct line to our team.
+                Whether you have questions, need assistance, or want to explore
+                collaboration opportunities, Your satisfaction and success are
+                our top priorities, and we look forward to connecting with you.
               </p>
             </div>
             <div className="grid pt-10 md:grid-cols-2 grid-cols-1 gap-5">

@@ -20,7 +20,8 @@ const WhyUs = () => {
               Quality Product
             </h1>
             <p className="text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Our quality products are designed for durability, safety, and
+              style.
             </p>
           </div>
           <div className=" flex flex-col gap-5 justify-center items-center">
@@ -36,7 +37,8 @@ const WhyUs = () => {
               Competitive Price
             </h1>
             <p className="text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Enjoy our competitive prices that offer affordability without
+              compromising quality.
             </p>
           </div>
           <div className=" flex flex-col gap-5 justify-center items-center">
@@ -52,7 +54,8 @@ const WhyUs = () => {
               24/7 Support
             </h1>
             <p className="text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Count on our 24/7 support for dedicated assistance whenever you
+              need it.
             </p>
           </div>
         </div>

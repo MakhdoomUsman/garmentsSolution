@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../container/Container";
 import Image from "next/image";
+import Link from "next/link";
 
 const WhoWeAre = () => {
   return (
@@ -30,12 +31,14 @@ const WhoWeAre = () => {
               Who We Are
             </h1>
             <p className="font-bold text-[45px] text-bgGray font-playFair">
-              The Best Solution For Your Textile And Garment Needs
+              Your Textile and Garment Partner
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
-              fringilla diam, et aliquet libero. Cras pulvinar elementum enim,
-              at faucibus est accumsan et.
+              We are your trusted partner in textile and garment solutions,
+              offering high-quality, customizable, and cost-effective products
+              to meet your unique needs. With a commitment to excellence and
+              customer satisfaction, we stand as your go-to choice for workwear,
+              uniforms, and more.
             </p>
             <div className="space-y-5">
               <div className="flex gap-5 md:justify-start justify-center items-center">
@@ -77,15 +80,17 @@ const WhoWeAre = () => {
             </div>
             <div className=" flex gap-10 md:justify-start justify-center items-center">
               <span className=" text-[70px] font-bold text-bgDarkGray ">
-                20+
+                10+
               </span>{" "}
               <span className="font-bold font-playFair text-lg">
                 Years Experience
               </span>
             </div>
-            <button className="rounded-lg hover:-translate-y-2.5 transition-all ease-in-out duration-300 hover:bg-bgDarkGray mt-5 bg-bgLightGray px-7 py-3.5 text-xl font-bold text-white">
-              More About Us
-            </button>
+            <Link href={"our-team"}>
+              <button className="rounded-lg hover:-translate-y-2.5 transition-all ease-in-out duration-300 hover:bg-bgDarkGray mt-5 bg-bgLightGray px-7 py-3.5 text-xl font-bold text-white">
+                More About Us
+              </button>
+            </Link>
           </div>
         </div>
       </Container>

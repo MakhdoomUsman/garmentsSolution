@@ -28,10 +28,14 @@ const WorkingProcess = () => {
               Choose The Best Material
             </h1>
             <p className=" md:text-base text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              eum, repellat ab recusandae tenetur et, eaque delectus totam, sint
-              exercitationem unde id minima? Architecto distinctio quam
-              adipisci. Cupiditate rerum laudantium voluptate. Doloremque cu
+              At the heart of our work process lies the critical decision of
+              selecting the best materials. We approach this step with utmost
+              care and precision. Our team conducts a thorough evaluation,
+              considering factors like durability, comfort, and appearance. We
+              work closely with our suppliers to source materials that not only
+              meet but exceed industry standards. By choosing the finest
+              materials, we lay the foundation for exceptional end products that
+              are reliable, comfortable, and stylish.
             </p>
 
             <button className="rounded-lg font-playFair hover:-translate-y-2.5 transition-all ease-in-out duration-300 hover:bg-bgDarkGray mt-5 bg-bgLightGray px-7 py-3.5 text-xl font-bold text-white">
@@ -43,10 +47,15 @@ const WorkingProcess = () => {
               Start Production
             </h1>
             <p className=" md:text-base text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              eum, repellat ab recusandae tenetur et, eaque delectus totam, sint
-              exercitationem unde id minima? Architecto distinctio quam
-              adipisci. Cupiditate rerum laudantium voluptate. Doloremque cum
+              With the finest materials in hand, we commence the production
+              phase. Our highly skilled and experienced team takes over,
+              utilizing cutting-edge machinery and techniques. The process is a
+              harmonious blend of art and science, where every detail matters.
+              From the precise cutting of fabric to the intricacies of
+              stitching, our professionals ensure that every garment meets our
+              stringent quality benchmarks. We take pride in our craftsmanship,
+              making sure that your vision is brought to life in the most
+              exquisite way possible.
             </p>
 
             <button className="rounded-lg font-playFair hover:-translate-y-2.5 transition-all ease-in-out duration-300 hover:bg-bgDarkGray mt-5 bg-bgLightGray px-7 py-3.5 text-xl font-bold text-white">
@@ -78,10 +87,16 @@ const WorkingProcess = () => {
               Ready To Export
             </h1>
             <p className=" md:text-base text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              eum, repellat ab recusandae tenetur et, eaque delectus totam, sint
-              exercitationem unde id minima? Architecto distinctio quam
-              adipisci. Cupiditate rerum laudantium voluptate. Doloremque cum
+              As we near the final stage of our working process, your order goes
+              through a meticulous quality assurance check. Our quality control
+              experts rigorously inspect each item, ensuring it aligns with our
+              commitment to excellence. When the products pass this stringent
+              examination with flying colors, they are carefully packed, ready
+              to embark on their journey to you or any destination worldwide.
+              Our export procedures are streamlined, guaranteeing efficient and
+              on-time delivery, no matter where you are. This stage signifies
+              the culmination of our dedication to providing you with top-notch
+              solutions tailored to your needs.
             </p>
 
             <button className="rounded-lg font-playFair hover:-translate-y-2.5 transition-all ease-in-out duration-300 hover:bg-bgDarkGray mt-5 bg-bgLightGray px-7 py-3.5 text-xl font-bold text-white">
