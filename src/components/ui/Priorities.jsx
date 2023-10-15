@@ -14,10 +14,14 @@ const Priorities = () => {
               Your Satisfaction Is Our Priority
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              At Garments Solutions, we{"'"}re not just specialists in crafting
+              quality garments; we{"'"}re specialists in making your
+              satisfaction our utmost priority. Our dedicated team goes the
+              extra mile to understand your needs and preferences, ensuring that
+              every product we create not only meets but exceeds your
+              expectations. Your contentment is our driving force, and we take
+              pride in tailoring our services to guarantee your delight at every
+              step of the journey.
             </p>
           </div>
           <div className="space-y-10">
@@ -30,25 +34,25 @@ const Priorities = () => {
               </div>
             </div>
             <div className="">
-              <p>Textile Services</p>
+              <p>Textile Designing</p>
               <div className="w-full mt-1 h-5 rounded-full overflow-hidden bg-bgLightGray">
-                <div className="w-[90%] h-full  bg-bgGray">
+                <div className="w-[50%] h-full  bg-bgGray">
                   <div className="px-3  text-xs text-white ">90%</div>
                 </div>
               </div>
             </div>
             <div className="">
-              <p>Textile Services</p>
+              <p>Textile Development</p>
               <div className="w-full mt-1 h-5 rounded-full overflow-hidden bg-bgLightGray">
-                <div className="w-[90%] h-full  bg-bgGray">
+                <div className="w-[60%] h-full  bg-bgGray">
                   <div className="px-3  text-xs text-white ">90%</div>
                 </div>
               </div>
             </div>
             <div className="">
-              <p>Textile Services</p>
+              <p>Textile Production</p>
               <div className="w-full mt-1 h-5 rounded-full overflow-hidden bg-bgLightGray">
-                <div className="w-[90%] h-full  bg-bgGray">
+                <div className="w-[85%] h-full  bg-bgGray">
                   <div className="px-3  text-xs text-white ">90%</div>
                 </div>
               </div>
