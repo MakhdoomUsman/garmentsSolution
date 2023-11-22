@@ -11,7 +11,7 @@ const ProjectDetails = ({ details }) => {
             <div className=" lg:col-span-2 xl:px-10 gap-20">
               <div className="space-y-5">
                 <h1 className="font-bold  text-bgLightGray font-playFair">
-                  Single Service
+                  Single Project
                 </h1>
                 <p className="font-bold   xl:text-[45px] text-[35px] text-bgGray font-playFair">
                   {details?.name}
@@ -47,7 +47,8 @@ const ProjectDetails = ({ details }) => {
                 Our Contact
               </h1>
               <p className=" text-white">
-                estibulum placerat ultricies massa, volutpat cursus lacus.
+                Contacting us at Garments Solutions is your direct gateway to
+                personalized assistance.
               </p>
               <hr />
               <div className="flex gap-2.5 text-white items-center">
@@ -75,42 +76,11 @@ const ProjectDetails = ({ details }) => {
             </div>
           </div>
           <div className="md:rounded-xl mt-10 xl:mx-20 rounded-lg overflow-hidden ">
-            <Image
-              src={"/image/servicedtail/detailSerrvice1.jpg"}
-              alt="logo"
-              className=" custom-img "
-              fill
-            />
+            <Image src={details.img} alt="logo" className=" custom-img " fill />
           </div>
           <div className="grid lg:grid-cols-2 grid-cols-1 xl:px-28 py-10 gap-10">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              fringilla mi a felis tristique ornare. In vestibulum est magna,
-              quis egestas turpis posuere a. Aliquam tellus diam, pellentesque
-              interdum ante sit amet, rutrum congue urna. Nullam luctus lectus a
-              posuere tincidunt. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Duis purus velit, tincidunt ac fringilla vitae,
-              sodales quis sem. Vivamus imperdiet semper mollis. Integer
-              volutpat dolor erat, eu eleifend magna vehicula at. Vestibulum eu
-              lorem enim. Phasellus bibendum turpis non tortor volutpat, nec
-              dignissim magna convallis. Vivamus ac blandit massa. Aliquam id
-              pharetra est. Fusce commodo malesuada pharetra. Maecenas ut urna
-              metus.{" "}
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              fringilla mi a felis tristique ornare. In vestibulum est magna,
-              quis egestas turpis posuere a. Aliquam tellus diam, pellentesque
-              interdum ante sit amet, rutrum congue urna. Nullam luctus lectus a
-              posuere tincidunt. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Duis purus velit, tincidunt ac fringilla vitae,
-              sodales quis sem. Vivamus imperdiet semper mollis. Integer
-              volutpat dolor erat, eu eleifend magna vehicula at. Vestibulum eu
-              lorem enim. Phasellus bibendum turpis non tortor volutpat, nec
-              dignissim magna convallis. Vivamus ac blandit massa. Aliquam id
-              pharetra est. Fusce commodo malesuada pharetra. Maecenas ut urna
-              metus.{" "}
-            </p>
+            <p>{details?.pera1}</p>
+            <p>{details?.pera2}</p>
           </div>
         </Container>
       </div>
@@ -120,17 +90,17 @@ const ProjectDetails = ({ details }) => {
             Summary
           </p>
           <div className=" text-white mt-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            fringilla mi a felis tristique ornare. In vestibulum est magna, quis
-            egestas turpis posuere a. Aliquam tellus diam, pellentesque interdum
-            ante sit amet, rutrum congue urna. Nullam luctus lectus a posuere
-            tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Duis purus velit, tincidunt ac fringilla vitae, sodales quis sem.
-            Vivamus imperdiet semper mollis. Integer volutpat dolor erat, eu
-            eleifend magna vehicula at. Vestibulum eu lorem enim. Phasellus
-            bibendum turpis non tortor volutpat, nec dignissim magna convallis.
-            Vivamus ac blandit massa. Aliquam id pharetra est. Fusce commodo
-            malesuada pharetra. Maecenas ut urna metus.
+            {`Garments Solutions presents a diverse array of high-quality
+            clothing, including the meticulously crafted "Complete Uniform Kit,"
+            designed to elevate team professionalism with tailored excellence
+            and premium materials. The "Shirt and Trouser Set" embodies timeless
+            sophistication and versatility, showcasing the brand's commitment to
+            precision and enduring elegance. The "Polo Shirt Collection"
+            redefines casual elegance with versatile designs, premium fabric
+            blends, tailored fits, customization options, and all-season
+            comfort. Additionally, the "T-shirt Collection" offers a canvas of
+            self-expression, featuring diverse styles, premium cotton comfort,
+            graphic expressions, athleisure fusion, and tailored fits for all.`}
           </div>
         </Container>
       </div>

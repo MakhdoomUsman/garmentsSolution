@@ -19,7 +19,7 @@ const AboutUs = () => {
               About Us
             </h1>
             <p className="font-bold  xl:text-[45px] text-[35px] text-bgGray font-playFair">
-              20+ Years Of Experience In Textile & <br /> Garment Industry
+            21+ Years Of Experience In Textile & <br /> Garment Industry
             </p>
             <div className="text-left grid md:grid-cols-2 py-5 xl:gap-20 md:gap-10 gap-5">
               <p>

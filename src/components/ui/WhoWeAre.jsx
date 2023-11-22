@@ -80,7 +80,7 @@ const WhoWeAre = () => {
             </div>
             <div className=" flex gap-10 md:justify-start justify-center items-center">
               <span className=" text-[70px] font-bold text-bgDarkGray ">
-                10+
+              21+
               </span>{" "}
               <span className="font-bold font-playFair text-lg">
                 Years Experience

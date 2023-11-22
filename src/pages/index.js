@@ -35,10 +35,10 @@ export default function Home() {
         <Poster />
         <WhyUs />
         <WhoWeAre />
+        <Client />
         <Services allServices={allServices} />
         <Achievement />
         <OurProjects />
-        <Client />
         <Testimonial />
         <GetInTouch />
       </div>
