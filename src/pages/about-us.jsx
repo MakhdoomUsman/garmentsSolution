@@ -5,12 +5,24 @@ import OurExperts from "@/components/ui/OurExperts";
 import OurProcess from "@/components/ui/OurProcess";
 import Priorities from "@/components/ui/Priorities";
 import WhoWeAre from "@/components/ui/WhoWeAre";
+import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 
 const AboutUs = () => {
   return (
     <div>
+      <Head>
+        <title>
+          About Garments Solutions - Crafting Fashion with Passion and Precision
+        </title>
+        <meta
+          name="description"
+          content="Learn about the journey and values that drive Garments Solutions. Passionate about fashion and committed to precision, we redefine the clothing experience."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <BreadCrums name="About Us" breadCrum={"About"} />
       <Container>
         <div className="xl:py-20 py-5 xl:px-20">
@@ -18,8 +30,8 @@ const AboutUs = () => {
             <h1 className="font-bold   text-bgLightGray font-playFair">
               About Us
             </h1>
-            <p className="font-bold  xl:text-[45px] text-[35px] text-bgGray font-playFair">
-            21+ Years Of Experience In Textile & <br /> Garment Industry
+            <p className="font-bold  xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgGray font-playFair">
+              21+ Years Of Experience In Textile & <br /> Garment Industry
             </p>
             <div className="text-left grid md:grid-cols-2 py-5 xl:gap-20 md:gap-10 gap-5">
               <p>
@@ -70,7 +82,7 @@ const AboutUs = () => {
         <Container>
           <div className=" relative z-20 text-center mx-auto max-w-4xl">
             <h1 className="font-bold   text-white font-playFair">Specialist</h1>
-            <p className="font-bold  xl:text-[45px] text-[35px] text-bgLightGray font-playFair">
+            <p className="font-bold  xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgLightGray font-playFair">
               What’s Our Features
             </p>
             <p className=" text-white">

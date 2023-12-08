@@ -8,12 +8,12 @@ const Footer = () => {
     <div className=" bg-bgDarkGray py-10">
       <Container>
         <div className=" grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  lg:px-20 lg:gap-10 gap-5">
-          <div className=" space-y-5">
+          <div className="">
             <div className=" w-52 ">
               <Image
-                src={"/image/Logos/Logo-Cottone.png"}
+                src={"/image/Logos/Garemtns.png"}
                 alt="logo"
-                className=" custom-img invert"
+                className=" custom-img"
                 fill
               />
             </div>

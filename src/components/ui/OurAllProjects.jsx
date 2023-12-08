@@ -13,7 +13,7 @@ const OurAllProjects = () => {
         </h1>
         <div className=" text-center ">
           <div className="">
-            <p className="font-bold  xl:text-[45px] text-[35px] text-bgGray font-playFair">
+            <p className="font-bold  xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgGray font-playFair">
               See Our Project
             </p>
             <p>

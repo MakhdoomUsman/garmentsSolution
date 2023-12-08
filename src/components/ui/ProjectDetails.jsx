@@ -13,7 +13,7 @@ const ProjectDetails = ({ details }) => {
                 <h1 className="font-bold  text-bgLightGray font-playFair">
                   Single Project
                 </h1>
-                <p className="font-bold   xl:text-[45px] text-[35px] text-bgGray font-playFair">
+                <p className="font-bold   xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgGray font-playFair">
                   {details?.name}
                 </p>
                 <p className=" space-y-3">
@@ -86,7 +86,7 @@ const ProjectDetails = ({ details }) => {
       </div>
       <div className="lg:p-20 py-10 bg-bgDarkGray">
         <Container>
-          <p className="font-bold   xl:text-[45px] text-[35px] text-bgLightGray font-playFair">
+          <p className="font-bold   xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgLightGray font-playFair">
             Summary
           </p>
           <div className=" text-white mt-5">

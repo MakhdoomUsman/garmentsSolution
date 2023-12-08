@@ -17,7 +17,7 @@ const Achievement = () => {
             <h1 className="font-bold text-center text-white font-playFair">
               Achievement
             </h1>
-            <p className="font-bold text-center  xl:text-[45px] text-[35px] text-bgLightGray font-playFair">
+            <p className="font-bold text-center  xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgLightGray font-playFair">
               Over 1320+ Complete work & Still counting
             </p>
             <p className="text-white text-center">

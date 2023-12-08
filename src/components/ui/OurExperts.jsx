@@ -11,7 +11,7 @@ const OurExperts = () => {
           <h1 className="font-bold   text-bgLightGray font-playFair">
             Our Expert
           </h1>
-          <p className="font-bold  xl:text-[45px] text-[35px] text-bgGray font-playFair">
+          <p className="font-bold  xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgGray font-playFair">
             Our Professional Team
           </p>
           <div className="grid xl:grid-cols-4  lg:grid-cols-3 sm:grid-cols-2 gap-5 py-10 ">

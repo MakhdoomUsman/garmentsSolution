@@ -11,7 +11,7 @@ const ServiceDetails = ({ details }) => {
             <h1 className="font-bold  text-bgLightGray font-playFair">
               Single Service
             </h1>
-            <p className="font-bold   xl:text-[45px] text-[35px] text-bgGray font-playFair">
+            <p className="font-bold   xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgGray font-playFair">
               {details?.name}
             </p>
             <p className=" space-y-3">

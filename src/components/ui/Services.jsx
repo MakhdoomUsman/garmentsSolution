@@ -12,7 +12,7 @@ const Services = ({ allServices }) => {
           <h1 className="font-bold text-center text-bgLightGray font-playFair">
             Our Services
           </h1>
-          <p className="font-bold text-center  text-[45px] text-bgGray font-playFair">
+          <p className="font-bold text-center xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgGray font-playFair">
             Delivering The Highest Quality Fabrics
           </p>
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 2xl:gap-12 gap-5 py-10">

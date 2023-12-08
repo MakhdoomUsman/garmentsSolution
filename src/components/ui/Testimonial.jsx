@@ -9,7 +9,7 @@ const Testimonial = () => {
         <h1 className="font-bold text-center text-bgLightGray font-playFair">
           Testimonial
         </h1>
-        <p className="font-bold text-center  xl:text-[45px] text-[35px] text-bgGray font-playFair">
+        <p className="font-bold text-center  xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgGray font-playFair">
           What They Said about Us
         </p>
         <div className="grid lg:grid-cols-2 2xl:mx-20 my-10 rounded-xl overflow-hidden">

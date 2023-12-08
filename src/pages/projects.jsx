@@ -6,6 +6,7 @@ import OurAllProjects from "@/components/ui/OurAllProjects";
 import OurProjects from "@/components/ui/OurProjects";
 import Priorities from "@/components/ui/Priorities";
 import WhyUs from "@/components/ui/WhyUs";
+import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 
@@ -13,6 +14,18 @@ const Projects = () => {
   return (
     <div>
       <div className="">
+        <Head>
+          <title>
+            Garments Solutions Projects - Showcasing Innovation in Fashion and
+            Technology
+          </title>
+          <meta
+            name="description"
+            content="Dive into our portfolio of projects at Garments Solutions. Witness the fusion of fashion and technology in every meticulously crafted garment."
+          />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
         <BreadCrums name=" Our Projects" breadCrum={"All Projects"} />
         <OurAllProjects />
         <Priorities />
@@ -24,7 +37,7 @@ const Projects = () => {
               <h1 className="font-bold   text-white font-playFair">
                 Specialist
               </h1>
-              <p className="font-bold  xl:text-[45px] text-[35px] text-bgLightGray font-playFair">
+              <p className="font-bold  xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgLightGray font-playFair">
                 What’s Our Features
               </p>
               <p className=" text-white">

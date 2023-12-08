@@ -3,19 +3,32 @@ import BreadCrums from "@/components/ui/BreadCrums";
 import OurProcess from "@/components/ui/OurProcess";
 import Priorities from "@/components/ui/Priorities";
 import WhoWeAre from "@/components/ui/WhoWeAre";
+import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 
 const OurTeam = () => {
   return (
     <div>
+      <Head>
+        <title>
+          Meet the Garments Solutions Team - Passionate Experts in Fashion and
+          Craftsmanship
+        </title>
+        <meta
+          name="description"
+          content="Get to know the dedicated individuals behind Garments Solutions. Our team combines passion and expertise to deliver top-notch fashion solutions."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <BreadCrums name="Our Team" breadCrum={"Team"} />
       <Container>
         <div className=" py-20 text-center">
           <h1 className="font-bold   text-bgLightGray font-playFair">
             Our Expert
           </h1>
-          <p className="font-bold  xl:text-[45px] text-[35px] text-bgGray font-playFair">
+          <p className="font-bold  xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgGray font-playFair">
             Our Professional Team
           </p>
         </div>

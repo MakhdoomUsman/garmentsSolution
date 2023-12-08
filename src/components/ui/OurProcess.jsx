@@ -75,7 +75,7 @@ const OurProcess = () => {
               <h1 className="font-bold   text-bgLightGray font-playFair">
                 Our Process
               </h1>
-              <p className="font-bold  xl:text-[45px] text-[35px] text-bgGray font-playFair">
+              <p className="font-bold  xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgGray font-playFair">
                 How We Works
               </p>
               <p>

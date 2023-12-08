@@ -1,11 +1,21 @@
 import BreadCrums from "@/components/ui/BreadCrums";
 import Client from "@/components/ui/Client";
 import ContactUsFrom from "@/components/ui/ContactUs";
+import Head from "next/head";
 import React from "react";
 
 const ContactUs = () => {
   return (
     <div>
+      <Head>
+        <title>Contact Garments Solutions - Reach Out for Personalized Fashion Solutions</title>
+        <meta
+          name="description"
+          content="Connect with Garments Solutions for personalized fashion solutions. Our team is ready to assist you with inquiries, orders, and more."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <BreadCrums name="Contact Us" breadCrum={"Contact"} />
 
           <ContactUsFrom />

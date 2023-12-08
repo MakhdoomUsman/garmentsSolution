@@ -17,6 +17,29 @@ const Client = () => {
     autoplaySpeed: 2000,
     cssEase: "linear",
     className: "slider variable-width",
+    responsive: [
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   const images = [
     "almuhanadas.png",
@@ -66,13 +89,13 @@ const Client = () => {
         <h1 className="font-bold text-center text-bgLightGray font-playFair">
           Client
         </h1>
-        <p className="font-bold text-center  xl:text-[45px] text-[35px] text-bgGray font-playFair">
+        <p className="font-bold text-center  xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgGray font-playFair">
           Trusted by world{"'"}s companies.
         </p>
-        <div className="  my-10">
+        <div className="clientSlider  my-10">
           <Slider {...settings}>
             {images.map((data, ind) => (
-              <div className=" px-10 h-full my-auto " key={ind}>
+              <div className=" sm:px-10 px-5" key={ind}>
                 <Image
                   src={`/image/client/${data}`}
                   alt="logo"

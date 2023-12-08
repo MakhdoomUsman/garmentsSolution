@@ -5,6 +5,7 @@ import Client from "@/components/ui/Client";
 import ServiceDetails from "@/components/ui/ServiceDetails";
 import Services from "@/components/ui/Services";
 import WorkingProcess from "@/components/ui/WorkingProcess";
+import Head from "next/head";
 import React from "react";
 
 const services = () => {
@@ -48,6 +49,18 @@ const services = () => {
   ];
   return (
     <div>
+      <Head>
+        <title>
+          Garments Solutions Services - Tailored Excellence for Every Clothing
+          Need
+        </title>
+        <meta
+          name="description"
+          content="Experience tailored excellence with the diverse services offered by Garments Solutions. From uniforms to custom apparel, we have your clothing needs covered."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <BreadCrums name="Our Services" breadCrum="All Services" />
       <Services allServices={allServices} />
       <Achievement />

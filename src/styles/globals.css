@@ -16,3 +16,9 @@
   filter: invert(82%) sepia(7%) saturate(1223%) hue-rotate(358deg)
     brightness(86%) contrast(83%);
 }
+
+
+.clientSlider .slick-track {
+  display: flex !important;
+  align-items: center !important;
+}

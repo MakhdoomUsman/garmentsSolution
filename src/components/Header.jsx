@@ -10,11 +10,11 @@ const Header = () => {
     <div>
       <HeaderTop />
       <Container>
-        <div className="flex py-5  justify-between items-center ">
+        <div className="flex  justify-between items-center ">
           <Link href={"/"}>
-            <div className=" w-52 ">
+            <div className=" xl:w-52 lg:w-40 w-32 ">
               <Image
-                src={"/image/Logos/Logo-Cottone.png"}
+                src={"/image/Logos/Garemtns.png"}
                 alt="logo"
                 className=" custom-img "
                 fill

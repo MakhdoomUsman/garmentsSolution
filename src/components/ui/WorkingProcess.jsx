@@ -9,7 +9,7 @@ const WorkingProcess = () => {
         <h1 className="font-bold text-center text-bgLightGray font-playFair">
           Working Process
         </h1>
-        <p className="font-bold text-center  xl:text-[45px] text-[35px] text-bgGray font-playFair">
+        <p className="font-bold text-center  xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgGray font-playFair">
           How Its Work
         </p>
         <div className="grid my-10 md:grid-cols-2 grid-cols-1 items-center gap-x-5 lg:gap-y-20 md:gap-y-10 gap-y-5 ">

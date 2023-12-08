@@ -7,7 +7,7 @@ import Services from "@/components/ui/Services";
 import Testimonial from "@/components/ui/Testimonial";
 import WhoWeAre from "@/components/ui/WhoWeAre";
 import WhyUs from "@/components/ui/WhyUs";
-
+import Head from "next/head";
 export default function Home() {
   const allServices = [
     {
@@ -31,6 +31,15 @@ export default function Home() {
   ];
   return (
     <main className="">
+      <Head>
+        <title>Garments Solutions - Elevating Style, Redefining Comfort</title>
+        <meta
+          name="description"
+          content="Discover quality apparel at Garments Solutions. From uniforms to casual wear, our meticulously crafted garments redefine style and comfort. Explore now!"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="">
         <Poster />
         <WhyUs />

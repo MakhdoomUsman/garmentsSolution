@@ -1,12 +1,24 @@
 import Container from "@/components/container/Container";
 import BreadCrums from "@/components/ui/BreadCrums";
 import ContactUsFrom from "@/components/ui/ContactUs";
+import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 
 const PricingPackage = () => {
   return (
     <div className="">
+      <Head>
+        <title>
+          Garments Solutions Pricing - Affordable Quality for Every Wardrobe
+        </title>
+        <meta
+          name="description"
+          content="Explore our transparent pricing structure at Garments Solutions. Affordable excellence in every garment, tailored to suit your style and budget."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <BreadCrums name="Pricing Plan" breadCrum={"Pricing"} />
 
       <Container>
@@ -15,7 +27,7 @@ const PricingPackage = () => {
             <h1 className="font-bold   text-bgLightGray font-playFair">
               Pricing Plans
             </h1>
-            <p className="font-bold  xl:text-[45px] text-[35px] text-bgGray font-playFair">
+            <p className="font-bold  xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgGray font-playFair">
               Choose Your Plan.
             </p>
             <p>
@@ -299,7 +311,7 @@ const PricingPackage = () => {
         <Container>
           <div className=" relative z-20 text-center mx-auto max-w-4xl">
             <h1 className="font-bold   text-white font-playFair">Specialist</h1>
-            <p className="font-bold  xl:text-[45px] text-[35px] text-bgLightGray font-playFair">
+            <p className="font-bold  xl:text-[45px] lg:text-[35px] md:text-[30px] text-[25px] text-bgLightGray font-playFair">
               What’s Our Features
             </p>
             <p className=" text-white">
